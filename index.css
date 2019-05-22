@@ -9,7 +9,7 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: auto / 1fr 1fr;
+  grid-template: auto / 1fr 1fr 1fr;
 }
 
 .grid-item {
@@ -18,3 +18,10 @@ body {
 }
 
 /* add the .bigItem class */
+
+.bigItem {
+  grid-area: 2 / 2 / 4 / 4;
+  height: 50%;
+  width: 50%;
+  justify-self: center;
+}
